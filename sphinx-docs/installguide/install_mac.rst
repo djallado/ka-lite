@@ -18,9 +18,22 @@ Macintosh installation uses the command line, but if you follow the instructions
 5. Now you can copy and paste this command into the terminal and press *'Enter'*.
 	* *git clone https://github.com/learningequality/ka-lite.git*
 6. Once it finishes downloading, enter *cd ka-lite* to move into the folder that was just downloaded.
-7. To begin installation enter *./setup_mac.command*
+7. To begin installation enter *./bin/kalite manage setup*
 8. During installation, you will be prompted to make an Admin account. Go ahead and follow along with the instructions.
 9. To begin running the server.
 	* Enter *./bin/kalite start*	
 10. KA lite should be accessible from http://127.0.0.1:8008/
 	* Replace *127.0.0.1* with the computer's external IP address or domain name to access it from another computer.
+	
+
+**Using KA-Lite Monitor App.**
+
+Download and install `KA-Lite Monitor.dmg` probably from this source: *https://learningequality.org/downloads/ka-lite/0.14/content/*.
+
+**Launching the KA-Lite Monitor**
+
+1. Launch KA-Lite Monitor from the application
+2. Enter Username and Password from the preference dialog.
+3. Click on the `KA-Lite icon` and then `Start Ka Lite menu`
+4. Click on `Open in Browser`, this will load the KA Lite in browser.
+
